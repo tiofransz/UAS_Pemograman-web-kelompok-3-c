@@ -1,0 +1,99 @@
+body{
+    background: #263859;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+form{
+    width: 400px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+  
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 25px;
+    outline: none;
+}
+
+label{
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button{
+    display: block;
+    width: 95%;
+    height: 35px;
+    border: 1px solid;
+    background: #263859;;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    margin: 10px auto;
+}
+
+button:hover{
+    border-color: #263859;;
+    transition: 1s;
+    opacity: 0.7;
+}
+
+.error{
+    background: #f2dede;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.success{
+    background: #b2d8bf;
+    color: #74c28e;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+h1{
+    text-align:center;
+    color: #fff;
+}
+
+.create{
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    color: #444;
+    float: right;
+}
+
+.create:hover{
+    text-decoration: underline;
+}
+
