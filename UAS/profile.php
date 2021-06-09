@@ -9,6 +9,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['username'])){
 <head>
     <title>Weather</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="home.css" />
 </head>
 <body>
@@ -57,9 +58,18 @@ if(isset($_SESSION['id']) && isset($_SESSION['username'])){
             </div><br><br>
         </div>
     </div>
-    
+    <br><br><br><br>
     <footer>
-        <p> Pemrograman Web C <script>document.write(new Date().getFullYear());</script></p>
+        <div class="footer-content">
+        <h4>Weather</h4>
+        <ul class="socials">
+            <li><a href="https://www.unsrat.ac.id/" target="blank"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://www.instagram.com/unsrat1961/" target="blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        </div>
+        <div class="footer-bottom">
+            <p> Pemrograman Web C <script>document.write(new Date().getFullYear());</script></p>
+        </div>
 </footer>
 
     <script src="my.js"></script>  
